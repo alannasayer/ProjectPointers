@@ -1,6 +1,5 @@
 // SomePointers.cpp Project
-// Code is incomplete but will run
-//
+
 #include <iostream>
 
 int main(){
@@ -44,9 +43,9 @@ p_aIntegers[8] = 108;
 p_aIntegers[9] = 109;
 #endif
 
-// ////////////////////////////////////////////////////////////////////////////
+
 // Character Pointer Code
-// ////////////////////////////////////////////////////////////////////////////
+
 
 char* p_c = p_aChars; // Same as p_c = &(p_aChars[0]);
 
@@ -70,10 +69,6 @@ while (p_c <= &(p_aChars[LAST_ARRAY_ELEM_INDEX])) {
 std::cout << "p_c: " << static_cast<void*>(p_c) << ": *p_c: " << *p_c << std::endl;
 p_c++; // Increment the pointer (to point to next array element)
 }
-
-// ////////////////////////////////////////////////////////////////////////////
-// Integer Pointer Code
-// ////////////////////////////////////////////////////////////////////////////
-
+//Integer pointer code
 int* p_i = p_aIntegers; 
 }
